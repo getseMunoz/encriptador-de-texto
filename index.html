@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="imagen/x-icon" href="./img/favicon.ico">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+
+        <a href="#">
+            <img class="logo" src="./img/logo.svg" alt="logo alura">
+        </a>
+    </header>
+    <main class="main">
+        <section class="encriptador">
+            <textarea class="encriptar " placeholder="Ingrese el texto aqui"></textarea>
+            <div class="encriptador-aviso">
+                <img src="./img/aviso.svg" alt="aviso">
+                <p class="txt-aviso "> No acentos y solo minusculas</p>
+            </div>
+            <div class="botones-encriptador">
+                <button type="submit" class="btn-encriptar"> Encriptar</button>
+                <button type="submit" class="btn-desencriptar"> Desencriptar</button>
+            </div>
+        </section>
+        <section class="img-texto">
+            <div class="img-texto-contenedor">
+                <img class="img-muneco" src="./img/muñeco.svg" alt="muñeco sentado">
+                <p class="parrafo1 ">Ningún mensaje fue encontrado</p>
+                <p class="parrafo2">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <textarea class="evaluar" type="mensaje" readonly></textarea>
+            <button class="btn-copiar" type="submit ">Copiar texto</button>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="desarrollado">Desarrollado por Getsemani Muñoz</p>
+
+        <img class="logo-github" src="./img/github.svg" alt="logo github">
+        <p class="github">getseMunoz</p>
+    
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
